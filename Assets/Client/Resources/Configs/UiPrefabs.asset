@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8240ba51f3184957946c2cf5916ad179, type: 3}
+  m_Name: UiPrefabs
+  m_EditorClassIdentifier: 
+  _canvasPrefab: {fileID: 4488671213022198282, guid: 434316ffa289f4e2cb830236245f833c, type: 3}
+  _cameraPrefab: {fileID: 3800600428954619604, guid: 273fdff1a6c1a4ea58e05d2479d66aaa, type: 3}
+  _panelPrefabLinks:
+  - Id: MainScreen
+    PrefabLink:
+      _path: Assets/Client/Resources/Prefabs/Ui/Screens/MainScreen.prefab
+  - Id: StartScreen
+    PrefabLink:
+      _path: Assets/Client/Resources/Prefabs/Ui/Screens/StartScreen.prefab
+  - Id: PauseScreen
+    PrefabLink:
+      _path: Assets/Client/Resources/Prefabs/Ui/Screens/PauseScreen.prefab
+  - Id: LoseScreen
+    PrefabLink:
+      _path: Assets/Client/Resources/Prefabs/Ui/Screens/LoseScreen.prefab
+  _subpanelPrefabLinks:
+  - Id: TestSubpanel
+    PrefabLink:
+      _path: Assets/Client/Resources/Prefabs/Ui/SubPanels/TestSubpanel.prefab
